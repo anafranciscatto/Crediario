@@ -1,0 +1,49 @@
+Modelagem do Banco de Dados: Comece projetando o banco de dados. Você precisará de tabelas para produtos, clientes e histórico de compras. Aqui estão algumas tabelas que você pode considerar:
+
+Tabela de Produtos:
+ID do produto
+Nome do produto
+Preço
+Descrição
+
+Tabela de Clientes:
+ID do cliente
+Nome
+CPF
+Endereço
+Renda mensal
+
+Tabela de Compras:
+ID da compra
+ID do cliente (chave estrangeira)
+Data da compra
+ID do produto (chave estrangeira)
+Status de pagamento (em andamento, pago, etc.)
+Página Inicial: Quando o vendedor iniciar o programa, exiba todos os produtos disponíveis na loja com seus IDs de identificação.
+
+Venda e Verificação do Cliente:
+Quando o vendedor clicar em “Venda”, direcione-o para outra página.
+Nessa página, verifique se o cliente já é cadastrado:
+Se o cliente já for cadastrado, vá para a tela de crédito, onde exibirá o histórico do cliente e informações sobre pagamentos pendentes.
+Se o cliente não for cadastrado, vá para a tela de cadastro de cliente.
+
+Tela de Crédito:
+Exiba o histórico de compras do cliente (compras anteriores).
+Verifique se o cliente está em processo de pagamento de outro produto da loja.
+
+Tela de Cadastro de Cliente:
+Solicite as informações necessárias para cadastrar um novo cliente (nome, CPF, endereço, etc.).
+
+Informações do Produto:
+Na tela de crédito, exiba as informações detalhadas do produto que o cliente deseja comprar no momento.
+
+
+
+----um sistema de credito aonde  teremos yum banco de dados em SQL que guardara as informações dos produtos, 
+todos os clientes da loja e seu historico de compra(compras ja feitas compras em andamneto, renda mensal...), 
+no inicio do programa vai aparecer todos os produtos da loja e o id de identificação do produto quando o vendodor 
+clicar em venda ele é direcionado para outra pagina aonde teremos uma tela que vai pedir as informações se a pessoa 
+ja é cliente (casso ela ja seja cliente) ==> vai para a tela do crediario aonde aparece todo o historico do cliente 
+e se ele ja esta em proceso de pagamento de outro produto da loja.(Caso não seja cliente) ==> Vai para tela de cadastro
+ de cliente. Na tela do crediario aparecera o historico e mais a abaixo as informações do produto que o cliente deseja 
+ comprar no momento.-----
